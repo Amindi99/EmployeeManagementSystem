@@ -57,16 +57,16 @@ public class forgotForm extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        mainPanel.setBackground(new java.awt.Color(233, 240, 249));
+        mainPanel.setBackground(new java.awt.Color(224, 233, 224));
         mainPanel.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 3, 2, new java.awt.Color(153, 153, 153)));
 
-        headerPanel.setBackground(new java.awt.Color(0, 0, 102));
+        headerPanel.setBackground(new java.awt.Color(0, 102, 102));
         headerPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Recovery !");
-        headerPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, -1, -1));
+        jLabel2.setText("Recovery ");
+        headerPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, -1, -1));
 
         lblClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/Cancel_Icon.png"))); // NOI18N
         lblClose.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
