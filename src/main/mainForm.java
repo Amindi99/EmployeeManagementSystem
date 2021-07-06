@@ -2588,6 +2588,7 @@ public class mainForm extends javax.swing.JFrame {
         loginForm l = new loginForm();
         l.setVisible(true);
         this.dispose();
+        //abcdef
     }//GEN-LAST:event_btn6MouseClicked
 
     private void headerPanelMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerPanelMouseDragged
