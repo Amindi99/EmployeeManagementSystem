@@ -2482,112 +2482,112 @@ public class mainForm extends javax.swing.JFrame {
 
     private void btn5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn5MouseClicked
         // TODO add your handling code here:
-        p1.setVisible(false);
-        p1_AddPane.setVisible(false);
-        p1_UpdatePane.setVisible(false);
-        p1_DeletePane.setVisible(false);
-        p1_ReportPane.setVisible(false);
-        p2.setVisible(false);
-        p3.setVisible(false);
-        p4.setVisible(false);
-        p5.setVisible(true);
+        //p1.setVisible(false);
+        //p1_AddPane.setVisible(false);
+        //p1_UpdatePane.setVisible(false);
+        //p1_DeletePane.setVisible(false);
+        //p1_ReportPane.setVisible(false);
+        //p2.setVisible(false);
+        //p3.setVisible(false);
+        //p4.setVisible(false);
+        //p5.setVisible(true);
         
         onLeaveClick(btn1);
         onLeaveClick(btn2);
         onLeaveClick(btn3);
         onLeaveClick(btn4);
         onClick(btn5);
-        onLeaveClick(btn6);
+        //onLeaveClick(btn6);
     }//GEN-LAST:event_btn5MouseClicked
 
     private void btn1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn1MouseClicked
         // TODO add your handling code here:
-        p1.setVisible(true);
-        p1_AddPane.setVisible(false);
-        p1_UpdatePane.setVisible(false);
-        p1_DeletePane.setVisible(false);
-        p1_ReportPane.setVisible(false);
-        p2.setVisible(false);
-        p3.setVisible(false);
-        p4.setVisible(false);
-        p5.setVisible(false);
+        //p1.setVisible(true);
+        //p1_AddPane.setVisible(false);
+        //p1_UpdatePane.setVisible(false);
+        //p1_DeletePane.setVisible(false);
+        //p1_ReportPane.setVisible(false);
+        //p2.setVisible(false);
+        //p3.setVisible(false);
+        //p4.setVisible(false);
+        //p5.setVisible(false);
         
         onClick(btn1);
         onLeaveClick(btn2);
         onLeaveClick(btn3);
         onLeaveClick(btn4);
         onLeaveClick(btn5);
-        onLeaveClick(btn6);
+        //onLeaveClick(btn6);
     }//GEN-LAST:event_btn1MouseClicked
 
     private void btn2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn2MouseClicked
         // TODO add your handling code here:
-        printCount();
+        //printCount();
         
-        p1.setVisible(false);
-        p1_AddPane.setVisible(false);
-        p1_UpdatePane.setVisible(false);
-        p1_DeletePane.setVisible(false);
-        p2.setVisible(true);
-        p3.setVisible(false);
-        p4.setVisible(false);
-        p5.setVisible(false);
+        //p1.setVisible(false);
+        //p1_AddPane.setVisible(false);
+        //p1_UpdatePane.setVisible(false);
+        //p1_DeletePane.setVisible(false);
+        //p2.setVisible(true);
+        //p3.setVisible(false);
+        //p4.setVisible(false);
+        //p5.setVisible(false);
         
         onLeaveClick(btn1);
         onClick(btn2);
         onLeaveClick(btn3);
         onLeaveClick(btn4);
         onLeaveClick(btn5);
-        onLeaveClick(btn6);
+        //onLeaveClick(btn6);
         
         loadData();
     }//GEN-LAST:event_btn2MouseClicked
 
     private void btn3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn3MouseClicked
         // TODO add your handling code here:
-        p1.setVisible(false);
-        p1_AddPane.setVisible(false);
-        p1_UpdatePane.setVisible(false);
-        p1_DeletePane.setVisible(false);
-        p1_ReportPane.setVisible(false);
-        p2.setVisible(false);
-        p3.setVisible(true);
-        p4.setVisible(false);
-        p5.setVisible(false);
+        //p1.setVisible(false);
+        //p1_AddPane.setVisible(false);
+        //p1_UpdatePane.setVisible(false);
+        //p1_DeletePane.setVisible(false);
+        //p1_ReportPane.setVisible(false);
+        //p2.setVisible(false);
+        //p3.setVisible(true);
+        //p4.setVisible(false);
+        //p5.setVisible(false);
         
         onLeaveClick(btn1);
         onLeaveClick(btn2);
         onClick(btn3);
         onLeaveClick(btn4);
         onLeaveClick(btn5);
-        onLeaveClick(btn6);
+        //onLeaveClick(btn6);
     }//GEN-LAST:event_btn3MouseClicked
 
     private void btn4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn4MouseClicked
         // TODO add your handling code here:
-        p1.setVisible(false);
-        p1_AddPane.setVisible(false);
-        p1_UpdatePane.setVisible(false);
-        p1_DeletePane.setVisible(false);
-        p1_ReportPane.setVisible(false);
-        p2.setVisible(false);
-        p3.setVisible(false);
-        p4.setVisible(true);
-        p5.setVisible(false);
+        //p1.setVisible(false);
+        //p1_AddPane.setVisible(false);
+        //p1_UpdatePane.setVisible(false);
+        //p1_DeletePane.setVisible(false);
+        //p1_ReportPane.setVisible(false);
+        //p2.setVisible(false);
+        //p3.setVisible(false);
+        //p4.setVisible(true);
+        //p5.setVisible(false);
         
         onLeaveClick(btn1);
         onLeaveClick(btn2);
         onLeaveClick(btn3);
         onClick(btn4);
         onLeaveClick(btn5);
-        onLeaveClick(btn6);
+        //onLeaveClick(btn6);
     }//GEN-LAST:event_btn4MouseClicked
 
     private void btn6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn6MouseClicked
         // TODO add your handling code here:
         loginForm l = new loginForm();
         l.setVisible(true);
-        dispose();
+        this.dispose();
     }//GEN-LAST:event_btn6MouseClicked
 
     private void headerPanelMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerPanelMouseDragged
